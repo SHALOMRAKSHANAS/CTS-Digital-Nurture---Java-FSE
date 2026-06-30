@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.library.AppTest" time="0.048" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\CTS DIGITAL NURTURE 5.0\Mandatory Hands-On\Spring Core and Maven\Exercise-1 Configuring a Basic Spring Application\librarymanagement\target\test-classes;D:\CTS DIGITAL NURTURE 5.0\Mandatory Hands-On\Spring Core and Maven\Exercise-1 Configuring a Basic Spring Application\librarymanagement\target\classes;C:\Users\sarav\.m2\repository\org\springframework\spring-context\5.3.30\spring-context-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-aop\5.3.30\spring-aop-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-beans\5.3.30\spring-beans-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-core\5.3.30\spring-core-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-jcl\5.3.30\spring-jcl-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-expression\5.3.30\spring-expression-5.3.30.jar;C:\Users\sarav\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sarav\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="D:\java\bin"/>
+    <property name="sun.java.command" value="C:\Users\sarav\AppData\Local\Temp\surefire13560189887438027967\surefirebooter3204275413455124620.jar C:\Users\sarav\AppData\Local\Temp\surefire13560189887438027967 2026-06-30T21-54-48_148-jvmRun1 surefire17651760591011774877tmp surefire_0557065852026371772tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\CTS DIGITAL NURTURE 5.0\Mandatory Hands-On\Spring Core and Maven\Exercise-1 Configuring a Basic Spring Application\librarymanagement\target\test-classes;D:\CTS DIGITAL NURTURE 5.0\Mandatory Hands-On\Spring Core and Maven\Exercise-1 Configuring a Basic Spring Application\librarymanagement\target\classes;C:\Users\sarav\.m2\repository\org\springframework\spring-context\5.3.30\spring-context-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-aop\5.3.30\spring-aop-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-beans\5.3.30\spring-beans-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-core\5.3.30\spring-core-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-jcl\5.3.30\spring-jcl-5.3.30.jar;C:\Users\sarav\.m2\repository\org\springframework\spring-expression\5.3.30\spring-expression-5.3.30.jar;C:\Users\sarav\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sarav\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sarav"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="D:\java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\CTS DIGITAL NURTURE 5.0\Mandatory Hands-On\Spring Core and Maven\Exercise-1 Configuring a Basic Spring Application\librarymanagement"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sarav\AppData\Local\Temp\surefire13560189887438027967\surefirebooter3204275413455124620.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+10-LTS"/>
+    <property name="user.name" value="Shalom Rakshana S"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.11+10"/>
+    <property name="localRepository" value="C:\Users\sarav\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\sarav\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="D:\CTS DIGITAL NURTURE 5.0\Mandatory Hands-On\Spring Core and Maven\Exercise-1 Configuring a Basic Spring Application\librarymanagement"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\sarav\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\sarav\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;D:\Java\bin;D:\Scripts\;D:\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;c:\Users\sarav\AppData\Local\Programs\cursor\resources\app\bin;D:\NODEREACTSTUFF\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;D:\Git\cmd;D:\Scripts\;D:\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;c:\Users\sarav\AppData\Local\Programs\cursor\resources\app\bin;D:\NODEREACTSTUFF\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;D:\Git\cmd;D:\Scripts\;D:\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;c:\Users\sarav\AppData\Local\Programs\cursor\resources\app\bin;D:\NODEREACTSTUFF\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Scripts\;D:\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System;D:\Microsoft VS Code\bin;C:\Users\sarav\AppData\Local\Programs\Ollama;c:\Users\sarav\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.11+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.library.AppTest" time="0.004"/>
+</testsuite>
