@@ -1,0 +1,6 @@
+<h2>Course List</h2>
+<div class="course-list">
+  @for (course of courses; track course.id) {
+    <app-course-card [course]="course" />
+  }
+</div>
