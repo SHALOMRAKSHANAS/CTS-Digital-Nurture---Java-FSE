@@ -1,0 +1,19 @@
+{
+  "courses": [
+    { "id": 1, "name": "Angular Fundamentals", "code": "ANG101", "credits": 3, "gradeStatus": "A" },
+    { "id": 2, "name": "TypeScript Deep Dive", "code": "TS201", "credits": 4, "gradeStatus": "B+" },
+    { "id": 3, "name": "RxJS in Action", "code": "RX301", "credits": 3, "gradeStatus": "A-" },
+    { "id": 4, "name": "Reactive Patterns", "code": "RP401", "credits": 4, "gradeStatus": "B" },
+    { "id": 5, "name": "Web Performance", "code": "WP501", "credits": 2, "gradeStatus": "A+" }
+  ],
+  "students": [
+    { "id": 1, "name": "Alice Johnson", "email": "alice@example.com" },
+    { "id": 2, "name": "Bob Smith", "email": "bob@example.com" },
+    { "id": 3, "name": "Carol White", "email": "carol@example.com" }
+  ],
+  "enrollments": [
+    { "id": 1, "studentId": 1, "courseId": 1, "enrolledDate": "2025-01-15" },
+    { "id": 2, "studentId": 1, "courseId": 2, "enrolledDate": "2025-01-20" },
+    { "id": 3, "studentId": 2, "courseId": 1, "enrolledDate": "2025-02-01" }
+  ]
+}

@@ -1,0 +1,18 @@
+<h2>Course List</h2>
+<div class="search-box">
+  <label for="search">Search:</label>
+  <input id="search" [(ngModel)]="searchTerm" (ngModelChange)="onSearchChange()" placeholder="Search courses..." />
+</div>
+@if (loading$ | async) {
+  <p class="loading-message">Loading courses...</p>
+} @else if (errorMessage$ | async) {
+  <p class="error-message">{{ errorMessage$ | async }}</p>
+} @else if ((courses$ | async)?.length === 0) {
+  <p class="no-data-message">No courses available.</p>
+} @else {
+  <div class="course-list">
+    @for (course of courses$ | async; track course.id) {
+      <app-course-card [course]="course" (courseClick)="navigateToCourse($event)" />
+    }
+  </div>
+}

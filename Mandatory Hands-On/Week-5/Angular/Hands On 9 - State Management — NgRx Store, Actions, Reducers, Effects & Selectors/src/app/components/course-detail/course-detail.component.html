@@ -1,0 +1,24 @@
+<h2>Course Details</h2>
+@if (course) {
+  <div class="course-detail">
+    <p><strong>ID:</strong> {{ course.id }}</p>
+    <p><strong>Name:</strong> {{ course.name }}</p>
+    <p><strong>Code:</strong> {{ course.code }}</p>
+    <p><strong>Credits:</strong> {{ course.credits }}</p>
+    <p><strong>Grade Status:</strong> {{ course.gradeStatus }}</p>
+  </div>
+  <h3>Enrolled Students</h3>
+  @if (loadingStudents) {
+    <p>Loading enrolled students...</p>
+  } @else if (enrolledStudents.length > 0) {
+    <ul>
+      @for (student of enrolledStudents; track student.id) {
+        <li>{{ student.name }} ({{ student.email }})</li>
+      }
+    </ul>
+  } @else {
+    <p>No students enrolled in this course.</p>
+  }
+} @else {
+  <p>Course not found.</p>
+}
