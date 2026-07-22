@@ -1,0 +1,12 @@
+<h2>My Enrolled Courses</h2>
+@if (loading) {
+  <p>Loading...</p>
+} @else if (enrolledCourses.length > 0) {
+  <ul>
+    @for (course of enrolledCourses; track course.id) {
+      <li>{{ course.name }} ({{ course.code }})</li>
+    }
+  </ul>
+} @else {
+  <p>No enrolled courses.</p>
+}
