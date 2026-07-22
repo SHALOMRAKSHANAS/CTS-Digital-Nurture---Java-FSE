@@ -1,0 +1,10 @@
+:host {
+  display: block;
+  padding: 1rem;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

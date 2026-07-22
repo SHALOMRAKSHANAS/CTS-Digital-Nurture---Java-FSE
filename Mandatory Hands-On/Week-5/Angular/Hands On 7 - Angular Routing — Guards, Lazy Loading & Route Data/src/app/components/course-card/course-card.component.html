@@ -1,0 +1,9 @@
+<div class="course-card" (click)="courseClick.emit(course.id)">
+  <h3>{{ course.name }}</h3>
+  <p><strong>Code:</strong> {{ course.code }}</p>
+  <p><strong>Credits:</strong> {{ course.credits }}</p>
+  <p><strong>Grade:</strong> {{ course.gradeStatus }}</p>
+  <button (click)="$event.stopPropagation(); toggleEnrollment()">
+    {{ isEnrolled ? 'Unenroll' : 'Enroll' }}
+  </button>
+</div>

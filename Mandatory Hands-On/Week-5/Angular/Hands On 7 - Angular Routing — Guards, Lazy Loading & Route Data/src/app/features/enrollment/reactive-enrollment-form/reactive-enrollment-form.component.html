@@ -1,0 +1,15 @@
+<h2>Reactive Enrollment Form</h2>
+<form [formGroup]="enrollForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name:</label>
+    <input id="name" formControlName="name" />
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input id="email" formControlName="email" type="email" />
+  </div>
+  <button type="submit" [disabled]="enrollForm.invalid">Submit</button>
+</form>
+@if (submitted) {
+  <p>Enrollment submitted for {{ enrollForm.value.name }} ({{ enrollForm.value.email }})</p>
+}
