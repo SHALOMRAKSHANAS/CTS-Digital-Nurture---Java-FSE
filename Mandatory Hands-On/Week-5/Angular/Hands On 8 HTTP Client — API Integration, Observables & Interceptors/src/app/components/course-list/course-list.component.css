@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  padding: 1rem;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.loading-message {
+  color: #007bff;
+  font-style: italic;
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.no-data-message {
+  color: #6c757d;
+}

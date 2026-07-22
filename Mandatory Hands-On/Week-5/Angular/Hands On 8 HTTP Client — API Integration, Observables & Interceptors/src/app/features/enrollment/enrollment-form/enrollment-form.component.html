@@ -1,0 +1,15 @@
+<h2>Enrollment Form</h2>
+<form #enrollForm="ngForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name:</label>
+    <input id="name" name="name" [(ngModel)]="studentName" required />
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input id="email" name="email" [(ngModel)]="studentEmail" required type="email" />
+  </div>
+  <button type="submit">Submit</button>
+</form>
+@if (submitted) {
+  <p>Enrollment submitted for {{ studentName }} ({{ studentEmail }})</p>
+}
