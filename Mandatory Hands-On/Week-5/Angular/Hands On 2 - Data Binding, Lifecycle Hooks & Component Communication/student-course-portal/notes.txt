@@ -1,0 +1,17 @@
+angular.json: The central configuration file for the Angular workspace, defining build, serve, and test settings.
+package.json: Manages the project's npm dependencies, scripts, and metadata.
+tsconfig.json: The base TypeScript configuration file specifying global compiler options.
+tsconfig.app.json: The project-specific TypeScript configuration for compiling the application source code.
+src/main.ts: The main entry point that bootstraps the Angular application.
+src/app/app.config.ts: Provides global application configurations, such as routing providers, for standalone Angular apps.
+src/app/app.component.ts: The root Angular component that defines the primary view and logic of the application.
+src/index.html: The main HTML page that hosts the root component and is served to the browser.
+
+--- Budgets in angular.json ---
+maximumWarning: Triggers a build warning if a generated bundle size exceeds the specified limit (e.g., "500kB").
+maximumError: Fails the build process with an error if a generated bundle size exceeds this critical limit (e.g., "1MB").
+Explanation: These budgets control the maximum file size of the compiled bundles, ensuring performance best practices by preventing the application from becoming too heavy to load efficiently over the network.
+
+--- dist folder verification ---
+The build successfully generated the 'dist' folder.
+The generated JavaScript bundle containing the compiled Angular application is 'main-NLVHSGWP.js'.
